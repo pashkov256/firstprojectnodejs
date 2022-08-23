@@ -1,0 +1,25 @@
+{
+  "name": "noda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "temadev",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.5.2",
+    "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": "16.16.0"
+  }
+}
