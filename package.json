@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "start": "server.js"
   },
   "author": "temadev",
   "license": "ISC",

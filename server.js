@@ -11,6 +11,8 @@ const postApiRoutes = require("./routes/api-post-routes");
 
 const app = express();
 
+const port = process.env.PORT || 3000;
+
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
@@ -21,8 +23,8 @@ mongoose
 
 app.set("viev engine", "ejs");
 
-app.listen(process.env.PORT, (error) => {
-  error ? console.log(error) : console.log(`SERVER LISTEN PORT:${PORT}`);
+app.listen(port, (error) => {
+  error ? console.log(error) : console.log(`SERVER LISTEN PORT:${port}`);
 });
 
 app.use(
